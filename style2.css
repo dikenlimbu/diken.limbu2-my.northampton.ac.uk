@@ -2,7 +2,7 @@ form label {
     color: black; /* Sets the label text color to black */
   }
 form label :hover {
-    color: blue;
+    color: red;
 }
 form {
     display: grid;

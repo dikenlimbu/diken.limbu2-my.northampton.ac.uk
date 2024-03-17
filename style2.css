@@ -1,0 +1,152 @@
+form label {
+    color: black; /* Sets the label text color to black */
+  }
+form label :hover {
+    color: blue;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px; /* Increased gap for better spacing */
+    max-width: 600px; /* Adjusted max-width for a different look */
+    margin: 20px auto; /* Added top and bottom margin */
+    background-color:  /* Added a background color */
+    padding: 20px; /* Added padding around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
+  }
+  
+  .form-item {
+    grid-column: span 2;
+    margin-bottom: 10px; /* Added space below each form item */
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    justify-content: start; /* Aligns terms to the start of the row */
+  }
+  
+  .terms label {
+    margin-left: 5px;
+    font-size: 0.9em; /* Adjusted font size for the label */
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px; /* Increased padding for a larger button */
+    grid-column: span 2;
+    background-color: #007bff; /* Changed button color */
+    color:black; /* Changed button text color */
+    border: none; /* Removed button border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+    
+
+
+nav ul li a {
+    color: blue;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+
+p {
+    color: black;
+}
+
+p:hover {
+    color: blue;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 7px;
+}
+
+/* Set the width and height using CSS */
+img {
+    width: 200px;
+    /* Adjust the width as needed */
+    height: 200px;
+    /* Adjust the height as needed */
+    border-radius: 0;
+    /* Makes the photo square */
+    object-fit: cover;
+    /* Ensures the photo covers the area without being stretched */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+body {
+    display: grid;
+}
+
+grid header {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+
+nav {
+    background-color: lightgreen;
+}
+
+grid-area: nav;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+main {
+    background-color: yellow;
+    color: white;
+}
+
+grid-area: main;
+}
+
+aside {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+}
+
+.showNav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+}

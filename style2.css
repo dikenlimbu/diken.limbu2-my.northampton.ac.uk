@@ -9,9 +9,9 @@ form {
     grid-template-columns: 1fr 2fr;
     gap: 15px; /* Increased gap for better spacing */
     max-width: 600px; /* Adjusted max-width for a different look */
-    margin: 20px auto; /* Added top and bottom margin */
+    margin: 30px auto; /* Added top and bottom margin */
     background-color:  /* Added a background color */
-    padding: 20px; /* Added padding around the form */
+    padding: 30px; /* Added padding around the form */
     border-radius: 8px; /* Rounded corners for the form */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
   }

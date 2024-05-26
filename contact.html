@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <header>
+    <a href="#" class="showNav"></a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="video.html">Video</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+  </main>
+<!-- Add a script tag with JavaScript code inside -->
+<script>
+  // This is a comment in JavaScript
+  // You can use JavaScript to manipulate the DOM elements
+  // For example, you can change the text of the <p> element in the <main> section
+  document.querySelector("main p").textContent = "Welcome to my website!";
+</script>
+<footer>
+    <aside id="mySidebar">
+        <p>Side bar</p>
+      </aside>
+      <footer>
+        <p>© Danick 2024</p>
+      </footer>
+</body>
+</html>
